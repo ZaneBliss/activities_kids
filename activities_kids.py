@@ -1,21 +1,8 @@
-def run(*kids):
+def activity(activity, *kids):
     for kid in kids:
-        print(f'{kid} ran like a fool!')
-        
-def swing(*kids):
-    for kid in kids:
-        print(f'{kid} swang like a fool!')
-        
-def slide(*kids):
-    for kid in kids:
-        print(f'{kid} slid like a fool!')
+        print(f'{kid} {activity} like a fool!')
 
-def hide(*kids):
-    for kid in kids:
-        print(f'{kid} hid like a fool!')
-
-run('Pam','Sam','Andrea','Will')
-swing('Marybeth','Ariel','Kevin','Courtney')
-slide('Mike','Jack','Jennifer','Earl')
-hide('Henry','Heather','Haley','Hugh')
-
+activity('ran','Pam','Sam','Andrea','Will')
+activity('swung','Marybeth','Ariel','Kevin','Courtney')
+activity('slid','Mike','Jack','Jennifer','Earl')
+activity('lept','Henry','Heather','Haley','Hugh')
